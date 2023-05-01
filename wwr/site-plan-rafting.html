@@ -1,5 +1,4 @@
 <html lang="en-us">
-  Palette URL: <a href="https://coolors.co/396e94-e7c24f-a43312-381d2a-aabd8c" target="_blank">https://coolors.co/396e94-e7c24f-a43312-381d2a-aabd8c</a>
 <head>
   <meta charset="utf-8" />
   <title>Site Plan</title>
