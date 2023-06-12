@@ -6,7 +6,7 @@
   --primary-color: #3c4cff   ;
   --secondary-color: #3eccff ;
   --accent1-color: #75d620;
-  --accent2-color: rgb(255, 166, 166);
+  --accent2-color: #FFE28C;
 
   /* change the values below to your chosen font(s) */
   --heading-font: "IM Fell French Canon SC";
@@ -18,7 +18,7 @@
   --paragraph-color-on-white: #0b0e30; /* paragraph text on a white background */ 
   --paragraph-color-on-color: white; /* paragraph text on a colored background */ 
   --paragraph-background-color: #3c4cff  ;
-  --nav-link-color: #3c4cff;
+  --nav-link-color: white;
   --nav-background-color: #75d620;
   --nav-hover-link-color: white;
   --nav-hover-background-color: #3c4cff;
