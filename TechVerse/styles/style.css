@@ -118,7 +118,7 @@ nav {
     grid-column: 2/3;
     grid-row: 1/2;
     margin-top: 100px;
-    font-family: 'Geologica';
+    font-family: 'Mulish';
     text-align: center; /* Center align the content in the hero message */
 }
 
@@ -131,8 +131,8 @@ nav {
     width: 100%;
     display: flex;
     align-items: center;
-    font-family: 'Geologica';
-    font-size: 1.5em;
+    font-family: 'Mulish';
+    font-size: 1.9em;
     margin-top: 300px;
     margin-right: 40px;
     color: white;
