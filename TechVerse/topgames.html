@@ -4,31 +4,109 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Get to know Tech World | TechVerse | VideoGames</title>
+    <title>Environment | Flowersium | Home</title>
     <link rel="stylesheet" href="styles/style.css">
 </head>
 
 <body>
-    <header>
+    <header2>
         <a id="logo_link" href="index.html">
             <img class="logo" src="./images/logo.png" alt="TechVerse Logo">
         </a>
-        <nav>
+        <nav2>
             <a href="index.html">Home Page</a>
             <a href="topgames.html">TopGames</a>
             <a href="latestech.html">LatesTech</a>
-        </nav>
-    </header>
+        </nav2>
+    </header2>
+</body>
 
-    <div id="hero">
-        <div id="hero-box">
-            <img id="hero-img" src="./images/image-3.png" alt="cool controllers">
-        </div>
-        <section id="hero-msg">
-            <h1 class="home-title">TopGames</h1>
-        </section>
+<div id="hero2">
+    <div id="hero-box2">
+        <img id="hero-img2" src="./images/hero2.jpg" alt="cool controllers">
     </div>
-    
+    <section id="hero-msg2">
+        <h1 class="home-title">Top Games</h1>
+        <h3>Where should you begin? Don't worry, we've got you covered. Here are a few of our favorite things in the TechVerse.!</h3>
+    </section>
+</div>
+
+<main>
+
+   <h5>Cool Games!</h5>
+   <div class="card-container">
+
+    <div class="slideshow-container">
+
+      <div class="mySlides fade">
+        <div class="numbertext">1 / 4</div>
+        <img src="./images/image-1.png" alt="call of Duty">
+        <div class="text">Call of Duty is a popular first-person shooter video game franchise that focuses on military combat. Developed by various studios, including Infinity Ward, Treyarch, and Sledgehammer Games, Call of Duty offers a range of games set in different historical periods, futuristic settings, and fictional conflicts. The games typically feature intense single-player campaigns with immersive storytelling, as well as robust multiplayer modes where players can compete against each other in various game types and battlefields. Call of Duty is known for its realistic graphics, fast-paced gameplay, and multiplayer experience, making it a beloved series among gamers worldwide.</div>
+      </div>
+      
+      <div class="mySlides fade">
+        <div class="numbertext">2 / 4</div>
+        <img src="./images/image-7.png" alt="Minecraft" >
+        <div class="text">Minecraft is a popular sandbox video game where players can explore, build, and create in a blocky virtual world. It offers various game modes and allows players to unleash their creativity by constructing structures and engaging in different activities. With its pixelated graphics and open-ended gameplay, Minecraft has become a global sensation with a dedicated fanbase.</div>
+      </div>
+      
+      <div class="mySlides fade">
+        <div class="numbertext">3 / 4</div>
+        <img src="./images/image-12.png" alt="Apex Legends">
+        <div class="text">Apex Legends is a free-to-play battle royale game set in a futuristic world. It features fast-paced, team-based gameplay where players compete in squads to be the last team standing. Each player chooses from a roster of unique characters, known as "Legends," each with their own special abilities and playstyles. With its dynamic gameplay, intense firefights, and strategic elements, Apex Legends has gained popularity as one of the leading battle royale games in the industry.</div>
+      </div>
+ 
+      <div class="mySlides fade">
+        <div class="numbertext">4 / 4</div>
+        <img src="./images/image-6.png" alt="Mario Bros">
+        <div class="text">Mario Bros is a classic video game franchise created by Nintendo. It follows the adventures of Mario, a plumber, and his brother Luigi as they navigate through various levels and obstacles to rescue Princess Peach from the villainous Bowser. The game is known for its platforming gameplay, power-ups such as mushrooms and fire flowers, and memorable characters like Goombas and Koopas. Mario Bros has become one of the most iconic and beloved video game series of all time, captivating players of all ages with its charming graphics and addictive gameplay.</div>
+      </div>
+
+      <a class="prev" onclick="plusSlides(-1)">❮</a>
+      <a class="next" onclick="plusSlides(1)">❯</a>
+      
+      </div>
+      <br>
+      
+      <div style="text-align:center">
+        <span class="dot" onclick="currentSlide(1)"></span> 
+        <span class="dot" onclick="currentSlide(2)"></span> 
+        <span class="dot" onclick="currentSlide(3)"></span> 
+        <span class="dot" onclick="currentSlide(4)"></span>
+      </div>
+      
+      <script>
+      let slideIndex = 1;
+      showSlides(slideIndex);
+      
+      function plusSlides(n) {
+        showSlides(slideIndex += n);
+      }
+      
+      function currentSlide(n) {
+        showSlides(slideIndex = n);
+      }
+      
+      function showSlides(n) {
+        let i;
+        let slides = document.getElementsByClassName("mySlides");
+        let dots = document.getElementsByClassName("dot");
+        if (n > slides.length) {slideIndex = 1}    
+        if (n < 1) {slideIndex = slides.length}
+        for (i = 0; i < slides.length; i++) {
+          slides[i].style.display = "none";  
+        }
+        for (i = 0; i < dots.length; i++) {
+          dots[i].className = dots[i].className.replace(" active", "");
+        }
+        slides[slideIndex-1].style.display = "block";  
+        dots[slideIndex-1].className += " active";
+      }
+      </script>
+    </div>
+
+</main>
+
     <footer>
         <div class="footer-content">
             <h2>TechVerse</h2>
@@ -49,8 +127,9 @@
                 <a href="https://tiktok.com" target="_blank">
                     <img src="./images/tiktok.png" alt="TikTok icon">
                 </a>
-            </div>
-        </div>
-    </footer>
+            </div>  
+  </div>
+  </footer>
+
 </body>
 </html>
