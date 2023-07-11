@@ -211,6 +211,24 @@ nav {
 .social img:hover {
     transform: scale(1.2);
 }
+.footer-content {
+  display: flex;
+  flex-direction: column; /* Align items vertically */
+  align-items: center; /* Center align items horizontally */
+  margin-top: 20px; /* Adjust margin as needed */
+}
+
+.social {
+  display: flex;
+  justify-content: center; /* Center align items horizontally */
+  align-items: center; /* Center align items vertically */
+  margin-top: 20px; /* Adjust margin as needed */
+}
+
+.social a {
+  display: inline-block;
+  margin: 0 10px; /* Adjust margin as needed */
+}
 
 /*Topgames page*/
 
@@ -396,7 +414,231 @@ h5{
   background: #75d620;
   width: 50%;
   border-radius: 70px;
-  margin: 65px 49px 65px 340px;
+  margin: 65px 49px 65px 290px;
  }
 
 /*LatesTech page*/
+
+
+header3 {
+  background-color: var(--paragraph-background-color);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px;
+}
+
+nav3 a {
+  font-family: 'Mulish';
+  text-align: center;
+  color: white;
+  text-decoration: none;
+  padding: 20px 35px;
+  transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+nav3 a:hover {
+  background-color: #FFE28C;
+  color: white;
+}
+
+#hero3 {
+  display: grid;
+  grid-template-columns: 1fr 3fr 1fr;
+  grid-template-rows: 4fr;
+  margin-top: -100px;
+  max-width: auto;
+  max-height: 540px;
+  animation: fade-in 1s ease-in;
+}
+
+@keyframes fade-in {
+0% {
+  opacity: 0;
+}
+100% {
+  opacity: 1;
+}
+}
+#hero-img3 {
+  width: 100%;
+  height: 100%;
+}
+#hero-box3 {
+  grid-column: 1/4;
+  grid-row: 1/3;
+  z-index: -1;
+}
+#hero-msg3 {
+  grid-column: 2/3;
+  grid-row: 1/2;
+  margin-top: 100px;
+  font-family: 'Mulish';
+  text-align: center; /* Center align the content in the hero message */
+  color: #fcfbfb;
+}
+*{
+  margin:0px;
+  padding: 0px;
+  box-sizing: border-box;
+  font-family: 'Mulish';
+}
+.wrapper{
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: -100px;
+}
+.image{
+  width: 1000px;
+  position: relative;
+}
+img{
+  width: 100%;
+  display: block;
+  margin: auto;
+}
+.content{
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  position: absolute;
+  background: rgba(0,0,0,0.6s);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  opacity: 0;
+  transition: 0.6s;
+}
+.content:hover{
+  opacity: 1;
+}
+.content h6{
+  font-size: 70px;
+  color: #ffe100;
+  margin-bottom: 15px;
+}
+.content p{
+  font-size: 40px;
+  color: #3eccff;
+  text-align: center;
+}
+.wrapper2{
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: -100px;
+}
+.image2{
+  width: 1000px;
+  position: relative;
+}
+.content2{
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  position: absolute;
+  background: rgba(0,0,0,0.6s);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  opacity: 0;
+  transition: 0.6s;
+}
+.content2:hover{
+  opacity: 1;
+}
+.content2 h7{
+  font-size: 70px;
+  color: #ffe100;
+  margin-bottom: 15px;
+}
+.content2 p{
+  font-size: 40px;
+  color: white;
+  text-align: center;
+}
+.wrapper3{
+  display: flex;
+  grid-template-columns: repeat(auto-fit, minmax(100px, 1fr));
+  width: 100%;
+  height: 100vh;
+  justify-content: center;
+  align-items: center;
+  margin-top: 100px;
+  gap: 300px;
+}
+.image3{
+  width: 1000px;
+  position: relative;
+}
+.image4{
+  width: 1000px;
+  position: relative;
+}
+.content3{
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  position: absolute;
+  background: rgba(0,0,0,0.6s);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  opacity: 0;
+  transition: 0.6s;
+}
+.content3:hover{
+  opacity: 1;
+}
+.content3 h8{
+  font-size: 70px;
+  color: #ffe100;
+  margin-bottom: 15px;
+}
+.content3 p{
+  font-size: 40px;
+  color: white;
+  text-align: center;
+}
+.content4{
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  position: absolute;
+  background: rgba(0,0,0,0.6s);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  opacity: 0;
+  transition: 0.6s;
+}
+.content4:hover{
+  opacity: 1;
+}
+.content4 h9{
+  font-size: 70px;
+  color: #ffe100;
+  margin-bottom: 15px;
+}
+.content4 p{
+  font-size: 40px;
+  color: white;
+  text-align: center;
+}
+.content .content2 .content3 .content4 > *{
+  transform: translateY(25px);
+  transition: transform 0.6s;
+}
