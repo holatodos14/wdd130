@@ -511,7 +511,7 @@ nav3 a:hover {
   margin-bottom: -100px;
 }
 .image{
-  width: 600px;
+  width: 500px;
   position: relative;
 }
 img{
@@ -537,12 +537,12 @@ img{
   opacity: 1;
 }
 .content h6{
-  font-size: 70px;
+  font-size: 45px;
   color: #ffe100;
   margin-bottom: 15px;
 }
 .content p{
-  font-size: 40px;
+  font-size: 15px;
   color: #3eccff;
   text-align: center;
 }
@@ -555,7 +555,7 @@ img{
   margin-top: -100px;
 }
 .image2{
-  width: 600px;
+  width: 500px;
   position: relative;
 }
 .content2{
@@ -576,12 +576,12 @@ img{
   opacity: 1;
 }
 .content2 h7{
-  font-size: 70px;
+  font-size: 45px;
   color: #ffe100;
   margin-bottom: 15px;
 }
 .content2 p{
-  font-size: 40px;
+  font-size: 15px;
   color: white;
   text-align: center;
 }
@@ -596,11 +596,11 @@ img{
   gap: 300px;
 }
 .image3{
-  width: 600px;
+  width: 500px;
   position: relative;
 }
 .image4{
-  width: 600px;
+  width: 500px;
   position: relative;
 }
 .content3{
@@ -621,12 +621,12 @@ img{
   opacity: 1;
 }
 .content3 h8{
-  font-size: 70px;
+  font-size: 45px;
   color: #ffe100;
   margin-bottom: 15px;
 }
 .content3 p{
-  font-size: 40px;
+  font-size: 15px;
   color: white;
   text-align: center;
 }
@@ -648,12 +648,12 @@ img{
   opacity: 1;
 }
 .content4 h9{
-  font-size: 70px;
+  font-size: 45px;
   color: #ffe100;
   margin-bottom: 15px;
 }
 .content4 p{
-  font-size: 40px;
+  font-size: 15px;
   color: white;
   text-align: center;
 }
